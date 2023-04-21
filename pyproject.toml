@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "my-causal-inference-100knock"
+version = "0.1.0"
+description = ""
+authors = ["Takao Mizuno <takao.mizuno110@gmail.com>"]
+readme = "README.md"
+packages = [{include = "my_causal_inference_100knock"}]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.24.2"
+pandas = "^2.0.0"
+matplotlib = "^3.7.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
